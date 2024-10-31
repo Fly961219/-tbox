@@ -384,7 +384,7 @@ async function playerContent(vod_id) {
       playUrl = `https://drive-pc.quark.cn/1/clouddrive/file/v2/play?pr=ucpro&fr=pc&uc_param_str=`;
       deleteUrl = `https://drive-pc.quark.cn/1/clouddrive/file/delete?pr=ucpro&fr=pc&uc_param_str=`;
       origin = `https://pan.quark.cn`;
-      cookie = quarkCookie;
+      cookie =  b-user-id=3bb91476-b095-aa22-d3fe-5a16d5e0e6b8; __wpkreporterwid_=022f6152-6dbc-49eb-13fb-80331e49c0b3; __itrace_wid=f674b125-7b21-4092-8f2b-0122e7f61ca9; ctoken=dsWc-8zsW3HVUJ-bdtmrdSx4; grey-id=8e2a8c59-a7ce-0b50-e6ff-0c70edfc6daa; grey-id.sig=rcgJS8L11TRmYCH4fkBTGjm9ua-TtV2FHhdxX8f4yu4; isQuark=false; isQuark.sig=DWPHMZYiiwQ-v58AbcP-rBdSIpzO8ZnrD67BdJuPatU; _UP_A4A_11_=wb96a1eb2bda48b09eadac741b676e55; _UP_D_=pc; __pus=396b36268cd606b8784998ec9f1928cfAATvjk4Gya87SXJ6hCE6LA5j6SE4ow8tYVyEOhRTGaGN4hlpkBW6kpyEmBcHJxk1kB/a1XKjZnOavLfNbJc5deAl; __kp=43cb3ec0-973c-11ef-b9a6-810cdac66b7c; __kps=AAToFmxIugOZvA4ln7GV+tgO; __ktd=Hzoxg9R86WpH4fBG98VuOg==; __uid=AAToFmxIugOZvA4ln7GV+tgO; __puus=388004dbe593f25d4744efd8047cc658AAStacqGoINAYTZL78ugXU6ju7QBDre9beUAI5haH2mjnwIS8z3Xpci79KODsdzZB9ErMZYaJKJsWEUPL9Uusf6zGnj68PfSbM4nvdtSNveDBRucAj4DdzWjHnh+zq0j/jOLNaBT584u5TX4Nrus6tKOhmlSZup69SLzyEJE2G3UpG9qlW5p/eGlsdA8JysnQZtQDdNfj7KeL/y1JfQBL5Qj;
     } else {
       getUrl = `https://pc-api.uc.cn/1/clouddrive/file/sort?pr=UCBrowser&fr=pc&pdir_fid=0&_page=${page}&_size=50&_fetch_total=1&_fetch_sub_dirs=0&_sort=file_type:asc,updated_at:desc`;
       createUrl = `https://pc-api.uc.cn/1/clouddrive/file?pr=UCBrowser&fr=pc`;
